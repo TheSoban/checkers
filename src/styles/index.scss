@@ -1,0 +1,11 @@
+$background-color: #333;
+$text-color: #EEE;
+
+body {
+  background: $background-color;
+
+  h1 {
+    color: $text-color;
+    text-align: center;
+  }
+}
