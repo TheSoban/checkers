@@ -2,7 +2,7 @@
 
 $background-color: #EEE;
 $black-cell-color: #222;
-$white-cell-color: #DDD;
+$white-cell-color: #FFF;
 $grid-border-color: #333;
 
 $white-checker: url("/public/images/white.png");
@@ -43,8 +43,8 @@ body {
       display: flex;
       height: 10vmin;
 
-      &:nth-of-type(even) > div:nth-child(odd),
-      &:nth-of-type(odd) > div:nth-child(even) {
+      &:nth-of-type(even) > div:nth-child(even),
+      &:nth-of-type(odd) > div:nth-child(odd) {
         background: $black-cell-color;
       }
 
@@ -62,9 +62,11 @@ body {
           bottom: 0;
           right: 0;
           display: block;
+          width: 10vmin;
+          height: 10vmin;
           background-repeat: no-repeat;
           background-size: cover;
-          background: rgba(0, 0, 0, 0);
+          background-color: rgba(0, 0, 0, 0);
 
           &.white {
             background-image: $white-checker;
