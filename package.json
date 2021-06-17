@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --public-url ./public/",
-    "build": "parcel build src/index.html --public-url ./public/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
